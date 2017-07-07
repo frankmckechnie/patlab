@@ -1,0 +1,216 @@
+//
+// colors is where common classes like bg-green will be placed 
+// classes like text-white will also be places here 
+//
+
+//
+// flat ui colors ----------------------
+//
+.bg-TURQUOISE {
+    background-color: $TURQUOISE;
+    color: $white
+}
+
+.bg-EMERALD {
+    background-color: $EMERALD;
+    color: $white
+} 
+
+.bg-ALIZARIN {
+    background-color: $ALIZARIN;
+    color: $white
+}
+
+.bg-orange {
+    background-color: $orange;
+    color: $white
+}
+
+.bg-peterRiver {
+    background-color: $peterRiver;
+    color: $white
+}
+
+.bg-sun {
+    background-color: $sun;
+    color: $white
+}
+
+.bg-punkin {
+    background-color: $punkin;
+    color: $white
+}
+//
+// end of flat ui colors ---------------
+//
+
+//
+// Back-ground colors ------------------
+//
+.bg-grey {
+    background-color: $grey;
+}
+
+.bg-light-Grey {
+    background-color: lighten($grey, 50%);
+}
+
+.bg-dark-green {
+    background-color: #27ae60;
+    color: #ecf0f1;
+}
+
+.bg-dark-grey {
+    background-color: $dark-blue;
+    color: $white
+}
+
+.bg-dark-grey h1, .bg-dark-grey h2, .bg-dark-grey h3 {
+    color: $white
+}
+
+    // brand colors  
+.bg-claret {
+    background-color: $brand-claret
+}
+.bg-charcoal {
+    background-color: $brand-charcoal
+}
+.bg-blue {
+    background-color: $brand-blue
+}
+.bg-teal {
+    background-color: $brand-teal
+}
+.bg-green {
+    background-color: $brand-green
+}
+.bg-light-green {
+    background-color: $brand-light-green 
+}
+.bg-yellow {
+    background-color: $brand-yellow
+}
+.bg-orange {
+    background-color: $brand-orange
+}
+.bg-red {
+    background-color: $brand-red
+}
+.bg-pink {
+    background-color: $brand-pink
+}
+.bg-dark-pink {
+    background-color: $brand-dark-pink
+}
+.bg-purple {
+    background-color: $brand-purple
+}
+.bg-white {
+    background-color: $brand-white
+}
+
+//
+// end of background-colors -------------
+//
+
+//
+// border colors -------------------------
+//
+    // border top 
+.border-top-red {
+    border-top: 2px solid $brand-claret;
+}
+
+.border-top-blue {
+    border-top: 1px solid $brand-blue;
+}
+
+.border-top-green {
+    border-top: 1px solid $brand-teal;
+}
+
+    // border bottom 
+.border-bottom-red {
+    border-bottom: 2px solid $brand-claret;
+}
+
+.border-bottom-blue {
+    border-bottom: 1px solid $brand-blue;
+}
+
+.border-bottom-green {
+    border-bottom: 1px solid $brand-teal;
+}
+
+.border-bottom-black {
+    border-bottom: 1px solid lighten(#242831, 65%);
+}
+
+.border-think-pink {
+  border-top: 2px solid #c70c47 !important;
+}
+    // border right 
+.border-right-black {
+    border-right: 1px solid lighten(#242831, 50%);
+}
+//
+// end of border colors -------------------
+//
+
+
+
+//
+// text colors --------------------
+//
+.black-text {
+    color: $bodyText;
+}
+
+.text-primary {
+    color: #00B5AD;
+}
+
+    //brand text 
+.text-claret {
+    color: $brand-claret !important
+}
+.text-charcoal {
+    color: $brand-charcoal !important
+}
+.text-blue {
+    color: $brand-blue!important
+}
+.text-teal {
+    color: $brand-teal !important
+}
+.text-green {
+    color: $brand-green !important
+}
+.text-light-green {
+    color: $brand-light-green !important
+}
+.text-yellow {
+    color: $brand-yellow !important
+}
+.text-orange {
+    color: $brand-orange !important
+}
+.text-red {
+    color: $brand-red !important
+}
+.text-pink {
+    color: $brand-pink !important
+}
+.text-dark-pink {
+    color: $brand-dark-pink !important
+}
+.text-purple {
+    color: $brand-purple !important
+}
+.text-white {
+    color: $brand-white !important
+}
+//
+// end text colors -----------------
+//

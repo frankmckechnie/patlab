@@ -1,0 +1,118 @@
+.hr-center {
+    border-width: 3px;
+    max-width: 50px;
+}
+
+.hr-center-teal{
+	border-color: $bg-color;
+}
+
+.center-title {
+    position: relative;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+
+    // padding: 0 40%;
+    h3:before, 
+    h3:after {
+        background-color: #dddddd;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 50%;
+    }
+
+    h3:before {
+        right: 0.5em;
+        margin-left: -50%;
+    }
+
+    h3:after {
+        left: 0.5em;
+        margin-right: -50%;
+    }
+}
+
+
+.hr-claret {
+    h3:before,
+    h3:after {
+        background-color: $brand-claret
+    }
+}
+.hr-charcoal {
+    h3:before,
+    h3:after {
+        background-color: $brand-charcoal
+   }
+}
+.hr-blue {
+    h3:before,
+    h3:after {
+        background-color: $brand-blue
+   }
+}
+.hr-teal {
+    h3:before,
+    h3:after {
+        background-color: $brand-teal
+   }
+}
+.bg-green {
+    h3:before,
+    h3:after {
+        background-color: $brand-green
+   }
+}
+.hr-light-green {
+    h3:before,
+    h3:after {
+        background-color: $brand-light-green 
+   }
+}
+.hr-yellow {
+    h3:before,
+    h3:after {
+        background-color: $brand-yellow
+   }
+}
+.hr-orange {
+    h3:before,
+    h3:after {
+        background-color: $brand-orange
+   }
+}
+.hr-red {
+    h3:before,
+    h3:after {
+        background-color: $brand-red
+   }
+}
+.hr-pink {
+    h3:before,
+    h3:after {
+        background-color: $brand-pink
+   }
+}
+.hr-dark-pink {
+    h3:before,
+    h3:after {
+        background-color: $brand-dark-pink
+   }
+}
+.hr-purple {
+    h3:before,
+    h3:after {
+        background-color: $brand-purple
+   }
+}
+.hr-white {
+    h3:before,
+    h3:after {
+        background-color: $brand-white
+    }
+}
